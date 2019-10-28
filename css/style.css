@@ -1,0 +1,87 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+.mainAria {
+    background: firebrick;
+    width: 100%;
+    height: 100%;
+
+}
+.Header {
+   width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+.logo{
+    width: 40%;
+    display: inline-block;
+    padding-left: 25px;
+}
+.logo a{
+    text-decoration: none;
+    color: #ffffff
+}
+.menuAria {
+    display: inline-block;
+    text-align: right;
+}
+.menuAria ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 25px;
+}
+.menuAria ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: arial;
+    transition: linear .2s;
+
+}
+.menuAria ul li a:hover{
+    text-decoration: underline;
+    transition: linear .2s;
+}
+.leftside {
+display: inline-block;
+}
+.leftside text {
+   padding-left: 115px;color:#ffffff;
+   line-height: 72px;
+   font-size:48px;
+} 
+.leftside text h1{
+    color:#ffffff;
+   line-height: 72px;
+   font-size:48px;
+}
+.button {
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+.button ul li {
+list-style: none;
+padding: 0 10px;
+display: inline-block;
+
+}
+.button ul li a {
+color:#ffffff;
+text-decoration: none;
+padding: 7px 10px;
+border: 1px solid #ffffff;
+border-radius: 25px;
+font-size: 12px;
+line-height: 48px;
+transition: 4s
+}
+.rightside {
+    display: inline-block;
+    text-align: right;
+    transform: translate(35%, 35%)
+
+}
+.rightside img{
+
+}
